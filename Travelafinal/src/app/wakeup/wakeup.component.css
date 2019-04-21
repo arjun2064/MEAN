@@ -1,0 +1,325 @@
+.about p{
+  color: #fefefe;
+  margin-left: 140px;
+}
+
+.body {
+  background: #282828;/* match border color */
+  text-align: center;
+}
+.Header-Logo a {
+  color: #dc006c;
+}
+small {
+  color: #333;
+}
+.logo {
+  font: 84px 'Arial Narrow', sans-serif;/* I picked this font because it's the closest looking 'web safe' font http://cssfontstack.com/ */
+  color: #fefefe;
+  text-transform: uppercase;
+  letter-spacing: -4px;
+
+  
+}
+
+/* stuff for both words */
+.logo span {
+  position: relative;
+}
+.logo span:before,
+.logo span:after {
+  content: '';
+  position: absolute;
+  border-width: 32px;/* makes a nice, big 64px square */
+  border-style: solid;
+  border-color: transparent;
+  height: 0;
+  z-index: 10;
+}
+
+/* stuff for 1st word */
+.logo .word1 {
+  color: #dc006c;
+  margin-right:-10 px;
+  transform: rotateY(180deg);/* using Prefix free */
+  display: inline-block;/* required for transform */
+  z-index: 10;/* stack 1st word on top */
+}
+.logo .word1:before {
+  right: -4px;
+  top: -4px;
+  border-top-color: #282828;
+  border-right-color: #282828;
+}
+.logo .word1:after {
+  left: 17px;/* would be right, but we flipped the word */
+  bottom: -15px;
+  border-bottom-color: #282828;
+  border-left-color: #282828;/* would be right, but we flipped the word */
+}
+/* word3 */
+.logo .word3 {
+  color: #dc006c;
+  margin-right: -1px;
+  transform: rotateY(180deg);/* using Prefix free */
+  display: inline-block;/* required for transform */
+  z-index: 10;/* stack 1st word on top */
+}
+
+
+
+/* stuff for 2nd word */
+.logo .word2 {
+  z-index: 0;/* stack 2nd word below */
+  margin-left: -35px;
+
+}
+.logo .word2:before {
+  /* left: -5px; */
+  top: 2px;
+  border-top-color: #282828;
+  border-left-color: #282828;
+}
+.logo .word2:after {
+  right: -4px;  
+  bottom: 4px;
+  border-bottom-color: #282828;
+  border-right-color: #282828;
+}
+
+
+/* header img {
+  height: 80px;
+  margin-left: 40px;
+}
+
+
+main {
+  color: white;
+}
+
+header {
+  background-color: white;
+  top: 110px;
+  left: 0;
+  right: 0;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 25px 0 black;
+
+}
+
+header * {
+  display: inline;
+}
+
+header li {
+  margin: 20px;
+}
+
+header li a {
+  color: black;
+  text-decoration: none;
+} */
+.flight-engine {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 50px;
+  padding: 20px;
+  z-index: 999;
+}
+.tab1.active {
+  display: block
+}
+.tab1 {
+  display: none
+}
+.title-heading {
+  color: white;
+  font-size: -webkit-xxx-large  }
+.tabing {
+  float: left;
+  width: 100%;
+  background: rgba(0, 130, 185, .8);
+  padding: 0 10px 10px 10px;
+  color: #fff;
+  margin-bottom: 300px;
+
+}
+.tabing ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  width: 100%;
+  float: left;
+}
+.tabing ul li {
+  float: left;
+}
+.tabing ul li a {
+  display: block;
+  padding: 5px;
+  text-decoration: none;
+  color: #fff;
+  background: rgba(0, 130, 185, .9);
+  margin: 0 10px 0 0;
+  padding: 5px 10px 5px 10px;
+  border-radius: 0px 0px 5px 5px;
+  font-size: 16px;
+  text-align: left;
+}
+.tabing ul li a.active {
+  background: #ba0400
+}
+.flight-tab {
+  width: 100%;
+  float: left;
+  margin-top: 10px;
+  padding-top : 15px;
+  padding-bottom: 15px;
+}
+.flight-tab .textboxstyle {
+  width: 100%;
+  float: left;
+  color: #191919;
+  padding: 8px 10px 8px 35px;
+  border: none;
+  border-radius: 3px;
+  background: #f5f5f5;
+  font-size: 14px;
+  line-height: 20px;
+}
+.persent-one {
+  width: 19%;
+  float: left;
+  margin-right: 1%;
+  position: relative;
+  margin-bottom: 10px;
+}
+.persent-one i {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  color: #191919;
+  font-size: 18px;
+}
+.persent-one.less-per {
+  width: 16%;
+  float: left;
+  margin-right: 1%;
+}
+.persent-one.less-btn {
+  width: 5%;
+  float: left;
+  margin-right: 1%;
+}
+.persent-one.less-btn .cst-btn {
+  width: 85px;
+  height: 85px;
+  border-radius: 100%;
+  position: absolute;
+  top: -32px;
+}
+.box1{
+  margin-right: 75px;
+  margin-left: 75px;
+}
+
+
+.box1 .img-responsive1 {
+
+  width: 100%;
+height: 400px;
+}
+
+/* Changes */
+.gap{
+margin-bottom: 0px;
+}
+
+.signUpText{
+text-align: right;
+}
+
+.new-item {
+overflow: hidden;
+position: relative;
+padding: 40px;
+}
+.new-item .fa {
+font-size: 60px;
+margin-bottom: 30px;
+color: #f6b461;
+}
+.new-item-black {
+background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+}
+.new-item-white {
+background: linear-gradient(rgba(206, 208, 206, 0.6), rgba(206, 208, 206, 0.6));
+color: #191716;
+}
+.new-container .front-text {
+text-align: center;
+transition: transform 2s;
+}
+.back-text {
+position: absolute;
+bottom: -11em;
+width: 75%;
+margin: 0 auto;
+height: 100%;
+transition: bottom 2s;
+/* padding: 10px 0; */
+padding-top: 55px;
+}
+.back-text h1 {
+margin-bottom: 20px;
+}
+.back-text p {
+margin-left: 20px;
+}
+.back-text button {
+margin-top: 20px;
+padding: 10px 20px;
+background: transparent;
+border: 2px solid #f6b461;
+font-size: 20px;
+color: #f6b461;
+}
+.back-text button:hover {
+background-color: #f6b461;
+color: #191716;
+}
+.new-item-white button {
+background: #f6b461;
+color: #191716;
+}
+.new-item-white button:hover {
+background: #191716;
+border-color: #191716;
+color: #f6b461;
+}
+.new-item:hover .front-text {
+transform: translateY(-200px);
+}
+.new-item:hover .back-text {
+bottom: 0;
+} 
+.new-container {
+max-width: 90vw;
+margin: 0 auto;
+color: #e0e2db;
+}
+@media screen and (min-width:776px) {
+.new-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+}
+
+/* Shifting right signup and sign in */
+.ml-auto{
+padding-left: 100px;
+}

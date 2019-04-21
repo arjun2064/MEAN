@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import url("https://fonts.googleapis.com/css?family=Montserrat:500,700");
+body {
+    font-family: 'Montserrat',sans-serif;
+}
+.container4 {
+    background-image:"https://t3.ftcdn.net/jpg/02/36/47/20/500_F_236472002_Fg1kUdpA3DflRUPOPi1MfWOTM8Uo9TkE.jpg" ;
+    height:100%; 
+    margin:0; 
+    padding:0;
+    position: relative }
+
+.positon{
+    margin-left: 40%;
+    margin-top: 10%;
+}

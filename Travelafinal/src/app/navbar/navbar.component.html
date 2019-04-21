@@ -1,0 +1,38 @@
+<nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top ">
+  <div class="container-fluid">
+      <div class="navbar-header ">
+          <button type="button" class="navbar-toggler navbar-brand" data-toggle="collapse" data-target="#myNav"aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              
+          </button>
+          <a class="navbar-Text navbar-brand " href="#">Tours & Travels</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNav">
+          <ul class="nav navbar-nav">
+              <li class=""><a class="nav-link" href="/home">Home</a></li>
+              <li class="dropdown">
+                <a class="dropdown-toggle nav-link" data-toggle="dropdown" data-target="target_menu" href="#">Find a hotel
+                      <span class="caret"></span></a>
+                      <div class="dropdown-menu bg-light" aria-labelledby="target_menu">
+                      <a class="dropdown-item" href="/europe">Europe</a>
+                      <div class="dropdown-divider"></div>
+                      <a   class="dropdown-item"href="/india">India</a>
+                      <div class="dropdown-divider"></div>
+
+                      <a class="dropdown-item" href="#">North America</a>
+                </div>
+              </li>
+              <li><a class="nav-link" href="/dining">Dining</a></li>
+              <li><a class="nav-link" href="/our">About Us</a></li>
+              <li><a class="nav-link" href="/flight">Book Flight</a></li>
+          </ul>
+          <div class="nav navbar-nav btn-toolbar mx-auto signUpText" role="toolbar" aria-label="Toolbar with button groups">
+              <div class="btn-group mr-2 " role="group" aria-label="First group">
+
+              <li><button type="button" class="btn btn-light" (click)="SignUp()">Logout </button></li>
+          </div>
+
+      </div>
+  </div>
+  </div>
+</nav>  
